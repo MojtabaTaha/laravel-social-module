@@ -1,0 +1,85 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+/* Navbar */
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropdown-item {
+    text-transform: lowercase !important;
+}
+
+nav li {
+    padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.carousel-content {
+    width: 300px;
+    height: 350px;
+}
+post {
+    float: left;
+    width: 75%;
+    background: #ffffff;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+post .image {
+    width: 24%;
+    float: left;
+}
+.image img {
+    width: 100%;
+    height: 140px;
+}
+post  .describe {
+    width: 73%;
+    float: left;
+    margin-left: 20px;
+}
+
+
+ol.carousel-indicators li.active {
+    background-color: rgba(45, 146, 204, 1);
+}
+
+ol.carousel-indicators li {
+    background-color: rgba(45, 146, 204, 0.6);
+}
+
+/* carousel-control (prev/next) */
+.carousel a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(70%);
+}
+
+
